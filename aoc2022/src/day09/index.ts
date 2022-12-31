@@ -4,6 +4,7 @@ interface Position {
   x: number;
   y: number;
 }
+
 const parseInput = (rawInput: string) => {
   return rawInput.split('\n').map((el) => {
     const [direction, step] = el.split(" ");
